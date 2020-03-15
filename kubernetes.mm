@@ -3,7 +3,7 @@
 <node TEXT="kubernetes" FOLDED="false" ID="ID_1397660565" CREATED="1583714882548" MODIFIED="1583714890197" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="concepts" POSITION="right" ID="ID_936957173" CREATED="1583714904418" MODIFIED="1583714910009">
 <edge COLOR="#ff0000"/>
 <node TEXT="kubernetes objects" ID="ID_244387449" CREATED="1583714910830" MODIFIED="1583714918834">
@@ -413,6 +413,21 @@
 <node TEXT="hook may be called multiple time for the same event" ID="ID_772627850" CREATED="1583976060850" MODIFIED="1583976087377"/>
 <node TEXT="debug" ID="ID_471949265" CREATED="1583976133942" MODIFIED="1583976135931">
 <node TEXT="check FailedPostStartHook or FailedPreStopHook event using kubectl describe pod/&lt;name&gt;" ID="ID_1308890782" CREATED="1583976139363" MODIFIED="1583976206796"/>
+</node>
+</node>
+<node TEXT="admission controller" POSITION="left" ID="ID_1986030744" CREATED="1584190352842" MODIFIED="1584190362105">
+<edge COLOR="#ff0000"/>
+<node TEXT="flexible" ID="ID_1638106258" CREATED="1584190367326" MODIFIED="1584190380489">
+<node TEXT="ValidatingAdmissionWebhooks" ID="ID_612363387" CREATED="1584190382791" MODIFIED="1584190398102"/>
+<node TEXT="MutingAdmissionWebhooks" ID="ID_1068887887" CREATED="1584190398565" MODIFIED="1584190422118"/>
+</node>
+<node TEXT="security" ID="ID_1920211010" CREATED="1584190668001" MODIFIED="1584190675295">
+<node TEXT="restrict image pull registry" ID="ID_1279110683" CREATED="1584190677034" MODIFIED="1584190696902"/>
+<node TEXT="reject insecure deployment" ID="ID_1812370156" CREATED="1584190699736" MODIFIED="1584190727490"/>
+<node TEXT="disabled privileged container" ID="ID_1176420355" CREATED="1584190755040" MODIFIED="1584190774887"/>
+</node>
+<node TEXT="governance" ID="ID_262884923" CREATED="1584190829373" MODIFIED="1584190847959">
+<node TEXT="conformant labels, annotations" ID="ID_1804092950" CREATED="1584190849707" MODIFIED="1584190871227"/>
 </node>
 </node>
 </node>
