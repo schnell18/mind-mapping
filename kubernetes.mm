@@ -3,7 +3,7 @@
 <node TEXT="kubernetes" FOLDED="false" ID="ID_1397660565" CREATED="1583714882548" MODIFIED="1583714890197" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="concepts" POSITION="right" ID="ID_936957173" CREATED="1583714904418" MODIFIED="1583714910009">
 <edge COLOR="#ff0000"/>
 <node TEXT="kubernetes objects" ID="ID_244387449" CREATED="1583714910830" MODIFIED="1583714918834">
@@ -429,6 +429,10 @@
 <node TEXT="governance" ID="ID_262884923" CREATED="1584190829373" MODIFIED="1584190847959">
 <node TEXT="conformant labels, annotations" ID="ID_1804092950" CREATED="1584190849707" MODIFIED="1584190871227"/>
 </node>
+</node>
+<node TEXT="operator" POSITION="left" ID="ID_1196409450" CREATED="1592617602051" MODIFIED="1592617606448">
+<edge COLOR="#0000ff"/>
+<node TEXT="encode knowledge to run complex software in kubernetes" ID="ID_811837255" CREATED="1592617609420" MODIFIED="1592617746018"/>
 </node>
 </node>
 </map>

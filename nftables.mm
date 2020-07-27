@@ -3,7 +3,7 @@
 <node TEXT="nftables" FOLDED="false" ID="ID_1759878447" CREATED="1583060944841" MODIFIED="1583060953910" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,10 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="concepts" POSITION="right" ID="ID_1900952630" CREATED="1583060957330" MODIFIED="1583060962257">
 <edge COLOR="#ff0000"/>
-<node TEXT="table" ID="ID_156908805" CREATED="1583060979387" MODIFIED="1583060994728"/>
+<node TEXT="table" ID="ID_156908805" CREATED="1583060979387" MODIFIED="1583060994728">
+<node TEXT="no predefined table" ID="ID_787201215" CREATED="1594622361662" MODIFIED="1594622384352"/>
+</node>
 <node TEXT="family" ID="ID_1234627060" CREATED="1583061492985" MODIFIED="1583061497415">
 <node TEXT="ip" ID="ID_1087217635" CREATED="1583061499500" MODIFIED="1583061509760"/>
 <node TEXT="arp" ID="ID_544099193" CREATED="1583061510105" MODIFIED="1583061512183"/>
@@ -192,6 +194,12 @@
 <node TEXT="jump" ID="ID_746827816" CREATED="1583063459726" MODIFIED="1583063461366"/>
 <node TEXT="goto" ID="ID_1473029954" CREATED="1583063461595" MODIFIED="1583063464233"/>
 </node>
+</node>
+</node>
+<node TEXT="command" POSITION="left" ID="ID_1964401493" CREATED="1594623449385" MODIFIED="1594623451319">
+<edge COLOR="#0000ff"/>
+<node TEXT="list all rules" ID="ID_1360096789" CREATED="1594623456141" MODIFIED="1594623462544">
+<node TEXT="ntf list ruleset" ID="ID_46228646" CREATED="1594623464144" MODIFIED="1594623473157"/>
 </node>
 </node>
 </node>
