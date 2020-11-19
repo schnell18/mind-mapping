@@ -1,0 +1,16 @@
+DepotOrderService
+DepotService
+CardPassOrderService
+CardSecretGenService
+CardSecretQueryService
+DrugCardTypeQueryService
+DrugCardPayOpenService
+DrugCardPayTokenService
+DrugCardPayService
+DrugCardAccountQueryService
+
+# macro to generate Dubbo service provider in Spring Java Config
+0"aywO@Beanj^ipublic ServiceBean<"apa> "apa iExportb~f i(lxA "apb~A) {}O ServiceBean<"apa> serviceBean = new ServiceBean<>();    serviceBean.setProxy(JAVASSIST);yypfPcwVersionwlci(dubboExportVersionyypfVcwInterfacelci("apa.classyypfIcwReflf.dt)b~o    return serviceBean;joj
+
+# macro to generate Dubbo service consumer in Spring Java Config
+0"aywO@Bean(name = ""apb~A", autowire = Autowire.BY_NAME)j0ipublic ReferenceBean<A> ref"apa()A {}O    ReferenceBean<"apa> ref = new ReferenceBean<>();o    ref.setVersion(version);o    ref.setInterface("apa.class);o    return ref;joj

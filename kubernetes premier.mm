@@ -1,0 +1,153 @@
+<map version="freeplane 1.7.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="kubernetes premier" FOLDED="false" ID="ID_1683446624" CREATED="1592276888707" MODIFIED="1592276912168" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="demonstrate kubernetes cluster" POSITION="right" ID="ID_1950540595" CREATED="1592286175586" MODIFIED="1592286199636">
+<edge COLOR="#ff00ff"/>
+<node TEXT="cluster description" ID="ID_1313015827" CREATED="1592286199994" MODIFIED="1592286224168"/>
+<node TEXT="setup intro" ID="ID_898747670" CREATED="1592286224636" MODIFIED="1592286238696">
+<node TEXT="ansible" ID="ID_1531817480" CREATED="1592286239055" MODIFIED="1592286243265"/>
+<node TEXT="vagrant" ID="ID_896491272" CREATED="1592286243757" MODIFIED="1592286247044"/>
+<node TEXT="virtualbox" ID="ID_1860313871" CREATED="1592286247259" MODIFIED="1592286256892"/>
+<node TEXT="debian box" ID="ID_1644485789" CREATED="1592286257314" MODIFIED="1592286262994"/>
+</node>
+<node TEXT="explore dashboard UI" ID="ID_929674645" CREATED="1592286274946" MODIFIED="1592286286896"/>
+<node TEXT="CLI demo" ID="ID_1029658254" CREATED="1592286289251" MODIFIED="1592286316889">
+<node TEXT="kubectl" ID="ID_516064198" CREATED="1592286319419" MODIFIED="1592286427939"/>
+</node>
+<node TEXT="vs code kubernetes extenstion" ID="ID_1485582566" CREATED="1592286440767" MODIFIED="1592286456108"/>
+<node TEXT="cassandra" ID="ID_111425247" CREATED="1592463736314" MODIFIED="1592463743476"/>
+</node>
+<node TEXT="why kubernetes" POSITION="left" ID="ID_561685694" CREATED="1592458338142" MODIFIED="1592458348222">
+<edge COLOR="#00ffff"/>
+<node TEXT="simplify application deployment" ID="ID_553361177" CREATED="1592459005364" MODIFIED="1592462642848">
+<node TEXT="dependency included" ID="ID_324403275" CREATED="1592460888665" MODIFIED="1592460931151"/>
+<node TEXT="easier to scale" ID="ID_1539151479" CREATED="1592459519686" MODIFIED="1592459531363"/>
+<node TEXT="multi data center" ID="ID_1629749024" CREATED="1592459532062" MODIFIED="1592459542027"/>
+<node TEXT="devops automation(CD/CI)" ID="ID_1257230010" CREATED="1592462454753" MODIFIED="1592462485992"/>
+</node>
+<node TEXT="better utilize computing resource" ID="ID_1686574969" CREATED="1592459031467" MODIFIED="1592459431888">
+<node TEXT="less overhead than vm" ID="ID_46655626" CREATED="1592460943686" MODIFIED="1592460953052"/>
+</node>
+<node TEXT="cloud trend" ID="ID_1843370389" CREATED="1592461982150" MODIFIED="1592462001057">
+<node TEXT="Amazon EKS" ID="ID_558350863" CREATED="1592462156991" MODIFIED="1592462405829"/>
+<node TEXT="Microsoft AKS" ID="ID_1040904477" CREATED="1592462163547" MODIFIED="1592462395509"/>
+<node TEXT="Alibaba AKS" ID="ID_1105491742" CREATED="1592462146476" MODIFIED="1592462416212"/>
+<node TEXT="Google GKE" ID="ID_1700355848" CREATED="1592462375316" MODIFIED="1592462381526"/>
+</node>
+</node>
+<node TEXT="what is kubernetes" POSITION="left" ID="ID_1038010148" CREATED="1592458569519" MODIFIED="1592458577762">
+<edge COLOR="#7c0000"/>
+<node TEXT="concepts" ID="ID_1742595719" CREATED="1592458581080" MODIFIED="1592458590178">
+<node TEXT="introduce key concepts by illustration" ID="ID_1294830342" CREATED="1592276918233" MODIFIED="1592458594325">
+<node TEXT="pod" ID="ID_808998113" CREATED="1592286001905" MODIFIED="1592286004547"/>
+<node TEXT="configmap" ID="ID_370858679" CREATED="1592286004876" MODIFIED="1592286014387"/>
+<node TEXT="secret" ID="ID_666344501" CREATED="1592286014971" MODIFIED="1592286017294"/>
+<node TEXT="deployment" ID="ID_423832785" CREATED="1592286051464" MODIFIED="1592286059990"/>
+<node TEXT="namespace" ID="ID_720853250" CREATED="1592286017508" MODIFIED="1592286021067"/>
+<node TEXT="service" ID="ID_1178183551" CREATED="1592286021674" MODIFIED="1592286026572"/>
+<node TEXT="ingress" ID="ID_1807431126" CREATED="1592286027249" MODIFIED="1592286030968"/>
+<node TEXT="daemonset" ID="ID_1679389452" CREATED="1592286031529" MODIFIED="1592286041714"/>
+<node TEXT="CronJob" ID="ID_1420823057" CREATED="1592286126109" MODIFIED="1592286128573"/>
+<node TEXT="statefulset" ID="ID_812928239" CREATED="1592286042070" MODIFIED="1592286051111"/>
+<node TEXT="CRD" ID="ID_413931821" CREATED="1592286746890" MODIFIED="1592286749382"/>
+</node>
+<node TEXT="API" ID="ID_1286140699" CREATED="1592458798560" MODIFIED="1592458801695">
+<node TEXT="show kubernetes RESTful API using swagger" ID="ID_1454082568" CREATED="1592276941934" MODIFIED="1592458804605"/>
+</node>
+</node>
+<node TEXT="architecure" ID="ID_675339372" CREATED="1592458599011" MODIFIED="1592458609605">
+<node TEXT="control plane" ID="ID_1506883276" CREATED="1592458611855" MODIFIED="1592458619798">
+<node TEXT="kube-api-server" ID="ID_382884917" CREATED="1592458632284" MODIFIED="1592458639577"/>
+<node TEXT="kube-scheduler" ID="ID_380287967" CREATED="1592458642008" MODIFIED="1592458646662"/>
+<node TEXT="kube-controller-manager" ID="ID_598638055" CREATED="1592458646921" MODIFIED="1592458655221"/>
+</node>
+<node TEXT="worker node" ID="ID_1709136182" CREATED="1592458620219" MODIFIED="1592458629362">
+<node TEXT="kubelet" ID="ID_1211415498" CREATED="1592458658121" MODIFIED="1592458661834"/>
+<node TEXT="kubeproxy" ID="ID_1688204994" CREATED="1592458662277" MODIFIED="1592458665205"/>
+<node TEXT="container runtime" ID="ID_1356882825" CREATED="1592458665487" MODIFIED="1592458672425"/>
+</node>
+<node TEXT="add-on" ID="ID_700470995" CREATED="1592458684191" MODIFIED="1592458687962">
+<node TEXT="DNS" ID="ID_1935698155" CREATED="1592458688713" MODIFIED="1592458694501"/>
+<node TEXT="monitoring" ID="ID_29336530" CREATED="1592458694876" MODIFIED="1592458732747"/>
+<node TEXT="logging" ID="ID_529774114" CREATED="1592458732892" MODIFIED="1592458735063"/>
+</node>
+<node TEXT="admin" ID="ID_1776811631" CREATED="1592458704312" MODIFIED="1592458714271">
+<node TEXT="kubectl" ID="ID_619208944" CREATED="1592458717169" MODIFIED="1592458719472"/>
+<node TEXT="dashboard" ID="ID_1583036189" CREATED="1592458719802" MODIFIED="1592458724594"/>
+</node>
+<node TEXT="supporting" ID="ID_516909136" CREATED="1592458746336" MODIFIED="1592458754998">
+<node TEXT="image repository" ID="ID_835582485" CREATED="1592458760202" MODIFIED="1592458773975"/>
+</node>
+</node>
+</node>
+<node TEXT="further learning" POSITION="left" ID="ID_968694697" CREATED="1592459326266" MODIFIED="1592459340717">
+<edge COLOR="#00007c"/>
+<node TEXT="read official document" ID="ID_640862904" CREATED="1592459373108" MODIFIED="1592459381889"/>
+<node TEXT="setup an learning environment" ID="ID_707184954" CREATED="1592459353176" MODIFIED="1592459372779"/>
+<node TEXT="consider certification" ID="ID_1139716684" CREATED="1592459344516" MODIFIED="1592459351391"/>
+</node>
+</node>
+</map>
